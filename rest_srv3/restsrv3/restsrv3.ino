@@ -16,9 +16,8 @@ struct Tled_resource {
 
 Tled_resource led_resource[8];
 
-const char* wifi_ssid = "GVT-B41A";
-//const char* wifi_ssid = "MRF ASUS";
-const char* wifi_passwd = "(182213)";
+const char* wifi_ssid = "xxxxxx";
+const char* wifi_passwd = "*******";
 
 ESP8266WebServer http_rest_server(HTTP_REST_PORT);
 
